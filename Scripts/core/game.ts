@@ -28,6 +28,6 @@ class Student extends Person {
 var person : Person = new Person("Qwert");
 person.speak();
 
-var student : Student = new Student("Donald", 1234);
+var student : Student = new Student("Jason", 1234);
 student.speak();
 student.studies();

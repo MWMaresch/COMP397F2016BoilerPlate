@@ -26,7 +26,7 @@ var Student = (function (_super) {
 }(Person));
 var person = new Person("Qwert");
 person.speak();
-var student = new Student("Donald", 1234);
+var student = new Student("Jason", 1234);
 student.speak();
 student.studies();
 //# sourceMappingURL=game.js.map
