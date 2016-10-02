@@ -1,5 +1,8 @@
 {
-  "name": "COMP397_BoilerPlate",
+  "name": "COMP397_Game1",
+  "authors": [
+    "MWMaresch <michael@maresch.co>"
+  ],
   "description": "",
   "main": "",
   "license": "MIT",

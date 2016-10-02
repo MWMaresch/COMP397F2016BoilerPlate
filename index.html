@@ -1,25 +1,50 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf8">
-        <meta name = "viewport" content ="width = device-width, initial-scale = 1">
-        <title>COMP 397 - Week 2 Boilerplate</title>
-        <!-- CSS Section -->
-        <link rel="stylesheet" href="Content/game.css">
-    </head>
-    <body onload="init();">
-        <div class ="game">
-            <canvas id="canvas" width="640" height="480"></canvas>
-        </div>
+<html lang="en">
+<head>
+    <meta charset ="uft-8" />
+    <meta name = "viewport" content = "width = device-width, initial-scale=1" />
+    <tite>Michael Maresch COMP397 Game 1</tite>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="Content/reset.css">
+    <link rel="stylesheet" href="Content/game.css">
+</head>
+<body onload="preload()">
+    <div class="game">
+        <canvas id="canvas" width="640" height="480"></canvas>
+    </div>
+    <script src="Scripts/config/config.js"></script>
 
-        <!-- JaveScript Scripts -->
-        <script src = "Scripts/lib/easeljs-0.8.2.min.js"></script>
-        <script src = "Scripts/lib/preloadjs-0.6.2.min.js"></script>
-        <script src = "Scripts/lib/soundjs-0.6.2.min.js"></script>
-        <script src = "Scripts/lib/tweenjs-0.6.2.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="Scripts/lib/easeljs-0.8.2.min.js"></script>
+    <script src="Scripts/lib/preloadjs-0.6.2.min.js"></script>
+    <script src="Scripts/lib/soundjs-0.6.2.min.js"></script>
+    <script src="Scripts/lib/tweenjs-0.6.2.min.js"></script>
 
-        <!-- Game Scripts -->
-        <script src="Scripts/core/game.js"></script>
-    </body>
+    <!--Game Scripts-->
+    <script src="Scripts/objects/asset.js"></script>
+    <script src="Scripts/objects/label.js"></script>
+    <script src="Scripts/objects/button.js"></script>
+    <script src="Scripts/objects/scene.js"></script>
 
+    <!-- Scene Scripts -->
+    <script src="Scripts/scenes/entrance.js"></script>
+
+    <script src="Scripts/scenes/leftpath/leftpath.js"></script>
+    <script src="Scripts/scenes/leftpath/leftmiddle.js"></script>
+    <script src="Scripts/scenes/leftpath/farleft.js"></script>
+    <script src="Scripts/scenes/rightpath/rightpath.js"></script>
+    <script src="Scripts/scenes/rightpath/rightmiddle.js"></script>
+    <script src="Scripts/scenes/rightpath/farright.js"></script>
+
+    <script src="Scripts/scenes/endings/badending1.js"></script>
+    <script src="Scripts/scenes/endings/badending2.js"></script>
+    <script src="Scripts/scenes/endings/badending3.js"></script>
+    <script src="Scripts/scenes/endings/badending4.js"></script>
+    <script src="Scripts/scenes/endings/badending5.js"></script>
+    <script src="Scripts/scenes/endings/badending6.js"></script>
+    <script src="Scripts/scenes/endings/badending7.js"></script>
+    <script src="Scripts/scenes/endings/goodending.js"></script>
+
+    <script src="Scripts/core/game.js"></script>
+</body>
 </html>
